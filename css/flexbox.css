@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer,
+.footer-contact {
+  display: flex;
+  justify-content: flex-end;
+}
