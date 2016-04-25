@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+	line-height: 1.6;
+	color: #414141;
+	margin: 0;
+  text-decoration: none;
+}
+
+p.fn {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1;
+}
+
+p.ln {
+  padding-right: 20px;
+  padding-bottom: 5px;
+  text-align: right;
+  margin: 0;
+  line-height: 1;
+}
+
+.line-separator {
+  margin-left: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-right: 20px;
+}
+
+p.definition,
+p.contact {
+  font-size: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+:link,
+:hover,
+:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left {
+  background-color: #EAEAEA;
+  width: 222px;
+}
+
+.content {
+  background-color: #414141;
+  width: 100%;
+  color: #EAEAEA;
+}
+
+.left img {
+  width: 141px;
+  height: auto;
+}
+
+IMG.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
