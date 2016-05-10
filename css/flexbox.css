@@ -1,7 +1,19 @@
 body {
   display: flex;
+  flex-direction: row;
 }
 
-/*.content {
+.left {
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-}*/
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  flex-grow: 2;
+}
