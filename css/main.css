@@ -1,0 +1,209 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", monospace;
+  color: #828282;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: #1A1A1A;
+}
+
+img {
+  display: flex;
+  height: 167px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px 0 0 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+:link,
+:hover,
+:visited {
+  text-decoration: none;
+  color: #828282;
+}
+
+.header-info {
+  width: 250px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1.fn {
+  font-family: "Orbitron", sans-serif;
+  color: #828282;
+  font-weight: 400;
+  height: 26px;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+h1.ln {
+  text-align: right;
+  font-family: "Orbitron", sans-serif;
+  color: #828282;
+  font-weight: 400;
+  height: 26px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.line-separator {
+  margin: 10px 12px;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+p.definition,
+p.contact {
+  font-size: 12px;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+p.contact {
+  padding-bottom: 20px;
+}
+
+.content {
+  width: 100%;
+  background-color: #414141;
+}
+
+.smashing-boxes {
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  flex-direction: column;
+}
+
+.smashing-boxes img {
+  height: 74px;
+}
+
+.smashing-boxes h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #eb1767;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: .2em;
+}
+
+.smashing-boxes p {
+  font-family: "Roboto", monospace;
+  font-size: .8em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  color: #eaeaea;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.sb-skill-header {
+  font-family: "Orbitron", sans-serif;
+  color: #eb1767;
+  font-weight: bold;
+}
+
+.allscripts {
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  flex-direction: column;
+}
+
+.allscripts img {
+  height: 74px;
+}
+
+.allscripts h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #84b71b;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: .2em;
+}
+
+.allscripts p {
+  font-family: "Roboto", monospace;
+  font-size: .8em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  color: #eaeaea;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.as-skill-header {
+  font-family: "Orbitron", sans-serif;
+  color: #84b71b;
+  font-weight: bold;
+}
+
+.as-skill-content {
+  padding: 0 0 20px 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.social img {
+  padding: 50px 10px;
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 960px) {
+  .smashing-boxes,
+  .allscripts {
+    display: flex;
+    max-width: 955px;
+    margin: 25px auto;
+    flex-direction: row;
+  }
+
+  .allscripts-content,
+  .sb-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .position,
+  .sb-skill-content,
+  .as-skill-content {
+    width: 250px;
+    padding: 0 20px;
+  }
+  .senior-tech {
+    order: 4;
+    flex-grow: 1
+  }
+}
