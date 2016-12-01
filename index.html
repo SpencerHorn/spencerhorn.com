@@ -31,8 +31,14 @@
       <p class="definition">noun, plural <a href="http://lmgtfy.com/?q=jack+of+all+trades">jacks-of-all-trades</a>. <br>1. a person who is adept at many
   different kinds of work.</p>
       <div class="line-separator"></div>
-      <p class="contact"><a href="mailto:spencerhorn@gmail.com">Spencer@spencerhorn.com</a><br>
-      <a href ="tel:919-274-8072">919.274.8072</a></p>
+      <p class="contact">
+        <!-- This is one potential option. Shouldn't need the js file at all if this works -->
+        <a onclick="ga('send', 'event', 'Contact', 'Click', 'Mailto Link');" href="mailto:spencerhorn@gmail.com">
+          Spencer@spencerhorn.com
+        </a>
+        <br>
+        <a onclick="ga('send', 'event', 'Contact', 'Click', 'Phone Number');" href ="tel:919-274-8072">919.274.8072</a>
+      </p>
     </div>
   </header>
   <div class="content">
@@ -158,16 +164,16 @@
   <footer>
     <!-- <div class="line-separator"></div> -->
     <div class="social">
-      <a href="https://twitter.com/SpencerHorn_">
+      <a onclick="ga('send', 'event', 'Social Icon', 'Click', 'Twitter');" href="https://twitter.com/SpencerHorn_">
         <img class="twitter" src="img/Spencer-Horn-Twitter.png" alt="Spencer Horn Twitter">
       </a>
-      <a href="https://github.com/SpencerHorn">
+      <a onclick="ga('send', 'event', 'Social Icon', 'Click', 'GitHub');" href="https://github.com/SpencerHorn">
         <img class="github" src="img/Spencer-Horn-Github.png" alt="Spencer Horn GitHub">
       </a>
-      <a href="https://www.linkedin.com/in/spencerlhorn">
+      <a onclick="ga('send', 'event', 'Social Icon', 'Click', 'LinkedIn');" href="https://www.linkedin.com/in/spencerlhorn">
         <img class="linkedin" src="img/Spencer-Horn-Linkedin.png" alt="Spencer Horn Linkedin">
       </a>
-      <a href="./assets/Spencer_Horn_Resume.pdf">
+      <a onclick="ga('send', 'event', 'PDF', 'Download', 'Resume');" href="./assets/Spencer_Horn_Resume.pdf">
         <img class="resume" src="img/Spencer-Horn-Resume.png" alt="Download Spencer Horn's Resume">
       </a>
     </div>
