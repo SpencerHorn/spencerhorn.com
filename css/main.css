@@ -83,6 +83,80 @@ p.contact {
   background-color: #414141;
 }
 
+.un {
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  flex-direction: column;
+}
+
+.un img {
+  height: 74px;
+}
+
+.un h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: .2em;
+}
+
+.un p {
+  font-family: "Roboto", monospace;
+  font-size: .8em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  color: #eaeaea;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.un-skill-header {
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ibm {
+  display: flex;
+  justify-content: center;
+  margin: 0 25px;
+  flex-direction: column;
+}
+
+.ibm img {
+  height: 74px;
+}
+
+.ibm h2 {
+  font-family: "Orbitron", sans-serif;
+  color: #1F70C1;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: .2em;
+}
+
+.ibm p {
+  font-family: "Roboto", monospace;
+  font-size: .8em;
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  color: #eaeaea;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.ibm-skill-header {
+  font-family: "Orbitron", sans-serif;
+  color: #1F70C1;
+  font-weight: bold;
+}
+
 .smashing-boxes {
   display: flex;
   justify-content: center;
@@ -181,6 +255,8 @@ footer {
 }
 
 @media screen and (min-width: 960px) {
+  .un,
+  .ibm,
   .smashing-boxes,
   .allscripts {
     display: flex;
@@ -189,6 +265,8 @@ footer {
     flex-direction: row;
   }
 
+  .un-content,
+  .ibm-content,
   .allscripts-content,
   .sb-content {
     display: flex;
@@ -197,10 +275,12 @@ footer {
   }
 
   .position,
+  .un-skill-content,
+  .ibm-skill-content,
   .sb-skill-content,
   .as-skill-content {
     width: 250px;
-    padding: 0 20px;
+    padding: 0 10px;
     /*margin: 10px 0;*/
   }
   .senior-tech {
